@@ -1,0 +1,10 @@
+CREATE TABLE Bikes (id INTEGER PRIMARY KEY,Item TEXT,price INTEGER,Sold INTEGER);
+
+INSERT INTO Bikes VALUES (1, "red bike", 25, 3);
+INSERT INTO Bikes VALUES (2, "Blue bike", 20, 4);
+INSERT INTO Bikes VALUES (3, "Green bike", 30, 6);
+INSERT INTO Bikes VALUES (4, "Yellow bike", 15, 1);
+INSERT INTO Bikes VALUES (5, "Orange bike", 40, 10);
+SELECT * FROM Bikes;
+SELECT Item, price FROM Bikes ORDER By price; 
+SELECT MAX(sold) FROM Bikes
